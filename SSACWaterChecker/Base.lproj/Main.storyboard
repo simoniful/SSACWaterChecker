@@ -78,10 +78,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmP-Um-ZZm">
-                                <rect key="frame" x="10" y="753" width="393" height="62"/>
+                                <rect key="frame" x="20" y="753" width="374" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="xFs-Sa-Rgu"/>
+                                    <constraint firstAttribute="height" constant="60" id="KFt-kk-j6t"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -97,16 +97,15 @@
                         <color key="backgroundColor" red="0.25490197539999998" green="0.58039218189999997" blue="0.44705885649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="IIK-cm-XT0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="Djk-hM-JrU"/>
-                            <constraint firstItem="CmP-Um-ZZm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="2" id="Frk-l2-1t5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8Qu-pw-Gc1" secondAttribute="trailing" constant="64" id="JQl-ZU-lhi"/>
+                            <constraint firstItem="CmP-Um-ZZm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="NOt-NX-Him"/>
                             <constraint firstItem="j2z-ff-4sG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="65" id="Qlp-tC-m7U"/>
-                            <constraint firstItem="CmP-Um-ZZm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="U35-lj-byN"/>
+                            <constraint firstItem="CmP-Um-ZZm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Thz-eX-9XR"/>
                             <constraint firstItem="j2z-ff-4sG" firstAttribute="top" secondItem="IIK-cm-XT0" secondAttribute="bottom" constant="89.5" id="Uib-sf-NMa"/>
-                            <constraint firstItem="CmP-Um-ZZm" firstAttribute="top" secondItem="2pZ-xC-e8u" secondAttribute="bottom" constant="14" id="a20-vh-Ith"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CmP-Um-ZZm" secondAttribute="trailing" constant="11" id="baX-QX-EYt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="j2z-ff-4sG" secondAttribute="trailing" constant="64" id="epb-PP-cLD"/>
                             <constraint firstItem="8Qu-pw-Gc1" firstAttribute="top" secondItem="j2z-ff-4sG" secondAttribute="bottom" constant="34" id="niR-C7-Xxg"/>
                             <constraint firstItem="IIK-cm-XT0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="oSK-KX-zqk"/>
+                            <constraint firstItem="CmP-Um-ZZm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qzx-bz-YlO"/>
                             <constraint firstItem="8Qu-pw-Gc1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="65" id="xEZ-5g-ZzB"/>
                             <constraint firstItem="2pZ-xC-e8u" firstAttribute="top" secondItem="8Qu-pw-Gc1" secondAttribute="bottom" constant="66" id="xa2-hO-2u5"/>
                             <constraint firstItem="2pZ-xC-e8u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ylX-2A-OJa"/>
@@ -114,7 +113,7 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="물 마시기" id="nUJ-hA-blR">
-                        <barButtonItem key="leftBarButtonItem" title=" " image="arrow.clockwise" catalog="system" id="Opm-jq-a3X">
+                        <barButtonItem key="leftBarButtonItem" title=" " id="Opm-jq-a3X">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="d2T-Av-OfD">
                                 <rect key="frame" x="20" y="5" width="50" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -127,7 +126,7 @@
                                 </connections>
                             </button>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="i58-tW-EB0">
+                        <barButtonItem key="rightBarButtonItem" id="i58-tW-EB0">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="MM0-DA-dDw">
                                 <rect key="frame" x="345" y="5" width="49" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -257,7 +256,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ixz-yU-TR0">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="W42-G4-cer">
+                        <barButtonItem key="rightBarButtonItem" style="done" id="W42-G4-cer">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="OAa-aC-1bB">
                                 <rect key="frame" x="340.5" y="5" width="53.5" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
