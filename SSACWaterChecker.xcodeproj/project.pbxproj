@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F45AEA7A2713BDCE00DF3A3E /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F45AEA792713BDCE00DF3A3E /* IQKeyboardManagerSwift */; };
 		F49066842713377B00D025A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49066832713377B00D025A3 /* AppDelegate.swift */; };
 		F49066862713377B00D025A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49066852713377B00D025A3 /* SceneDelegate.swift */; };
 		F49066882713377B00D025A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49066872713377B00D025A3 /* ViewController.swift */; };
 		F490668B2713377B00D025A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49066892713377B00D025A3 /* Main.storyboard */; };
 		F490668D2713377D00D025A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F490668C2713377D00D025A3 /* Assets.xcassets */; };
 		F49066902713377D00D025A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F490668E2713377D00D025A3 /* LaunchScreen.storyboard */; };
+		F490669827133AE300D025A3 /* DrinkWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490669727133AE300D025A3 /* DrinkWaterViewController.swift */; };
+		F490669A2713446300D025A3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49066992713446300D025A3 /* ProfileViewController.swift */; };
+		F49066A027134C0A00D025A3 /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = F490669F27134C0A00D025A3 /* TextFieldEffects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		F490668C2713377D00D025A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F490668F2713377D00D025A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49066912713377D00D025A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F490669727133AE300D025A3 /* DrinkWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterViewController.swift; sourceTree = "<group>"; };
+		F49066992713446300D025A3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49066A027134C0A00D025A3 /* TextFieldEffects in Frameworks */,
+				F45AEA7A2713BDCE00DF3A3E /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +68,8 @@
 				F49066852713377B00D025A3 /* SceneDelegate.swift */,
 				F49066872713377B00D025A3 /* ViewController.swift */,
 				F49066892713377B00D025A3 /* Main.storyboard */,
+				F49066992713446300D025A3 /* ProfileViewController.swift */,
+				F490669727133AE300D025A3 /* DrinkWaterViewController.swift */,
 				F490668C2713377D00D025A3 /* Assets.xcassets */,
 				F490668E2713377D00D025A3 /* LaunchScreen.storyboard */,
 				F49066912713377D00D025A3 /* Info.plist */,
@@ -83,6 +93,10 @@
 			dependencies = (
 			);
 			name = SSACWaterChecker;
+			packageProductDependencies = (
+				F490669F27134C0A00D025A3 /* TextFieldEffects */,
+				F45AEA792713BDCE00DF3A3E /* IQKeyboardManagerSwift */,
+			);
 			productName = SSACWaterChecker;
 			productReference = F49066802713377B00D025A3 /* SSACWaterChecker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,10 @@
 				Base,
 			);
 			mainGroup = F49066772713377B00D025A3;
+			packageReferences = (
+				F490669E27134C0A00D025A3 /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				F45AEA782713BDCE00DF3A3E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = F49066812713377B00D025A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +158,9 @@
 			files = (
 				F49066882713377B00D025A3 /* ViewController.swift in Sources */,
 				F49066842713377B00D025A3 /* AppDelegate.swift in Sources */,
+				F490669A2713446300D025A3 /* ProfileViewController.swift in Sources */,
 				F49066862713377B00D025A3 /* SceneDelegate.swift in Sources */,
+				F490669827133AE300D025A3 /* DrinkWaterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +315,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +327,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +344,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +382,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F45AEA782713BDCE00DF3A3E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		F490669E27134C0A00D025A3 /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F45AEA792713BDCE00DF3A3E /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F45AEA782713BDCE00DF3A3E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		F490669F27134C0A00D025A3 /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F490669E27134C0A00D025A3 /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F49066782713377B00D025A3 /* Project object */;
 }
